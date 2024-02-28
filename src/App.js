@@ -112,8 +112,8 @@ function Item({ item,onDeleteItems,onToggleItem}) {
        />
       <span style={item.packed ? { textDecoration: "line-through" } : {}}>
         {item.quantity}
+        {item.description}
       </span>
-      {item.description}
       <button onClick={()=>onDeleteItems(item.id)}>❌</button>
     </li>
   );
