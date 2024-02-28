@@ -82,6 +82,10 @@ input {
   align-items: center;
 }
 
+li.span{
+  gap: 2px;
+}
+
 .actions button,
 .list select {
   text-transform: uppercase;
