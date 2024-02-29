@@ -82,7 +82,7 @@ input {
   align-items: center;
 }
 
-.list.span{
+li.span{
   gap: 2px;
 }
 
